@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+.large-space{
+  margin-bottom: 16rem;
+}
+
  .scale-1{
   transform: scale(1.5);
  }
@@ -10890,6 +10894,7 @@ p {
   margin-bottom: 4rem;
 }
 
+
 @media (min-width: 768px) {
   section {
     padding: 9rem 0;
@@ -11315,7 +11320,8 @@ header.masthead .masthead-heading {
 }
 
 .img-brand {
-  height: 2.75rem;
+  /* height: 2.75rem; */
+  padding:10px 20px;
 }
 
 section#affiliate {
@@ -11333,7 +11339,13 @@ section#affiliate .section-heading {
   width: 93vw;
   color: var(--bs-dark);
   margin-top: -45px;
+  margin-bottom: 1rem;
+
   /* background-color: rgba(250, 250, 250, 0.80); */
+}
+
+.linkContainer{
+  padding: 8rem 0;
 }
 
 #contact {
