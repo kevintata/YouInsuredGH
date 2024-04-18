@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+
+
 .large-space{
   margin-bottom: 16rem;
 }
@@ -123,8 +125,8 @@ hr {
   margin: 1rem 0;
   color: inherit;
   border: 0;
-  border-top: 1px solid;
-  opacity: 0.25;
+  border-top: 2px solid;
+  opacity: 0.3;
 }
 
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
